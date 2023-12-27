@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #333232;
+    text-align: center;
+  }
+  
+  .container {
+    height: 80vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  .gamestar{
+    height: 60vmin;
+    width: 60vmin;
+    /* background: url(star.png)no-repeat;
+    background-size: auto ;
+    background-position: center center; */
+
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;
+  } 
+  .triang1{
+    margin-top: 1.8rem;
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(100% 0, 0% 100%, 71% 99%);
+    
+  }
+  .triang2{
+    margin-top: 1.8rem;
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(50% 0%, 11% 100%, 91% 100%);
+
+  } 
+  .triang3{
+    margin-top: 1.8rem;
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(0 0, 26% 100%, 100% 100%);
+
+  }
+  .triang4{
+    margin-top: 1vmin;
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(100% 0, 0 0, 78% 100%);
+
+
+  }
+  .triang5 {
+    margin-top: 1vmin;
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(88% 0, 100% 65%, 53% 100%, 0 65%, 19% 0);
+
+
+  }
+  .triang6 {
+    margin-top: 1vmin;
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(0 0, 15% 100%, 100% 0);
+
+  }
+  .triang7 {
+    
+    height: 15vmin;
+    width: 13vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(100% 26%, 0 0, 73% 100%);
+
+  }
+  .triang8 {
+    
+    height: 15vmin;
+    width: 13vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(27% 0, 0 100%, 100% 37%);
+
+  }
+  .triang9 {
+    
+    height: 15vmin;
+    width: 13vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(70% 0, 0 36%, 89% 100%);
+
+  }
+  .triang10 {
+    
+    height: 15vmin;
+    width: 13vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(0 21%, 15% 100%, 96% 0);
+
+  }
+  .triang11 {
+    
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #CEB7B3;;
+    border: 0;
+    clip-path: polygon(49% 0, 0 55%, 100% 55%);
+
+  }
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  .btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #F7B2AD;
+    color: #fff;
+    border-radius: 10%;
+    text-decoration: none;
+    border: none;
+  }
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #CEB7B3;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  .win {
+    background-color: #8eff85; /* Change this color for highlighting */
+  }
+  
