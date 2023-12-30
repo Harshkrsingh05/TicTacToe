@@ -44,6 +44,11 @@
     color: #b0413e;
     background-color: #CEB7B3;
   } 
+
+  .box:hover {
+    cursor: pointer;
+
+  }
   .triang1{
     margin-top: 1.8rem;
     height: 15vmin;
@@ -175,6 +180,7 @@
     border-radius: 1rem;
     border: none;
   }
+
   .btn{
     padding: 0.5rem;
     font-size: 1rem;
@@ -184,6 +190,13 @@
     text-decoration: none;
     border: none;
   }
+
+  .btn,#new-btn,
+  #reset-btn:hover {
+    cursor: pointer;
+    background-color: #27271f;
+  }
+
   #new-btn {
     padding: 1rem;
     font-size: 1.25rem;
